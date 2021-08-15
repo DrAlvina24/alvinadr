@@ -8,7 +8,7 @@
 
 body {
     margin: 0 auto;
-    background: repeat url(../RESSOURCES/fond.png);
+    background: repeat url(../img/fond.png);
     background-size: 35%;
     background-color: #111111fd;
 }
