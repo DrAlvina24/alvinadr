@@ -11,6 +11,12 @@ body {
     background: repeat url(../img/fond.png);
     background-size: 35%;
     background-color: #111111fd;
+    --action-color: rgb(44, 174, 184);
+    --dark-action-color: rgba(85, 173, 179, 0.623);
+    /*rgb(16, 208, 222) for the blue turquoise*/
+    --dark-color: rgb(5, 5, 12);
+    --dark-transparent-color: rgba(0, 0, 0, 0.8);
+    --light-color: lightgrey;
 }
 
 html {
@@ -19,14 +25,6 @@ html {
 
 .transparent {
     opacity: 0;
-}
-
-.fin_de_page {
-    /*CASE*/
-    width: 100%;
-    /*largeur en pourcentage de la fenêtre du navigateur*/
-    height: 400px;
-    background-color: darkgrey;
 }
 
 
@@ -57,22 +55,11 @@ html {
 
 /*IMPORTATION HTML DANS UN AUTRE FICHIER FIN*/
 
-#marker {
-    position: absolute;
-    height: 2px;
-    width: 0px;
-    background: #DE6110;
-    bottom: -4px;
-    transition: 0.3s;
-    border-radius: 0px;
-    z-index: 10;
-}
-
 
 /*---------------------------------------- TEXTES -----------------------------------------------*/
 
 .presentation_text {
-    color: lightgrey;
+    color: var(--light-color);
     font-family: Poppins;
     font-size: 16px;
     margin-left: 20%;
@@ -84,31 +71,20 @@ html {
 }
 
 .explication_text {
-    color: lightgrey;
+    color: var(--light-color);
     font-family: Poppins;
     font-size: 16px;
     text-align: justify;
 }
 
-.link_text {
-    background-color: lightgrey;
-    color: #111111;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: justify;
-}
-
 .lien {
-    color: #DE6110;
+    color: var(--action-color);
     text-decoration: underline;
 }
 
 b {
     /*POUR SURLIGNER LE TEXTE*/
-    background-color: #de621088;
+    background-color: var(--dark-action-color);
 }
 
 
@@ -246,17 +222,18 @@ b {
     color: darkgrey;
     font-weight: 600;
     margin: 0;
-    background-color: #de621054;
+    background-color: var(--dark-action-color);
 }
 
 .contour {
     color: #ffffff00;
+    /*couleur transparente pour laisser le clignotement de la barre d'écriture invisible sur les animations*/
 }
 
 .present_date {
     font-family: Poppins;
     font-size: 16px;
-    color: #DE6110;
+    color: var(--action-color);
     font-weight: 600;
     margin: 0;
     opacity: 0.8;
@@ -357,8 +334,8 @@ b {
 }
 
 .card .content {
-    /*Background du texte explicatif de la carte*/
-    background-color: rgba(0, 0, 0, 0.801);
+    /*Background du texte explicatif de la carte qui doit être transparent*/
+    background-color: var(--dark-transparent-color);
 }
 
 
@@ -374,10 +351,10 @@ b {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: var(--dark-color);
     text-decoration: none;
     position: absolute;
-    background-color: lightgrey;
+    background-color: var(--light-color);
     margin: 5px;
     margin-top: 30px;
     margin-left: -5px;
@@ -388,8 +365,8 @@ b {
 }
 
 .folder_project_link:hover {
-    color: lightgrey;
-    background-color: #DE6110;
+    color: var(--light-color);
+    background-color: var(--action-color);
     padding-right: 200px;
 }
 
@@ -418,10 +395,11 @@ b {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
-    color: lightgrey;
+    color: var(--light-color);
     text-decoration: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: var(--dark-transparent-color);
+    /*un peu transparent*/
     align-self: flex-end;
 }
 
@@ -466,4 +444,24 @@ b {
 .square_image:hover {
     /*image de la case d'un projet*/
     width: 90%;
+}
+
+.btn {
+    padding: 10px;
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    font-family: Poppins;
+    margin: 5px;
+    margin-right: 30px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    padding: 15px;
+    background-color: var(--action-color);
+    color: lightgrey;
+    margin: 0;
+    margin-right: 25px;
 }

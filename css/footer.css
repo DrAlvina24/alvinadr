@@ -1,7 +1,7 @@
 /*------------------------------------------------------ FOOTER -----------------------------------------------*/
 
 .by {
-    background-color: #0D0D0D;
+    background-color: var(--dark-color);
     width: 100%;
     padding-top: 20px;
     margin-bottom: 0px;
@@ -11,7 +11,7 @@
     margin-top: 10px;
     font-family: Poppins;
     text-align: center;
-    color: #DE6110;
+    color: var(--action-color);
 }
 
 footer {
@@ -57,7 +57,7 @@ footer {
 }
 
 .social_menu ul li .fa:hover {
-    color: #DE6110;
+    color: var(--action-color);
     /*couleur des icônes lorsqu'elles sont survolées*/
 }
 

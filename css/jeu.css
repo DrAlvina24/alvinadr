@@ -26,12 +26,12 @@
     color: lightgrey;
     text-decoration: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: var(--dark-transparent-color);
     align-self: flex-end;
 }
 
 .cadre_sombre {
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: var(--dark-transparent-color);
     height: 10%;
     z-index: 5;
     width: 21.5%;
