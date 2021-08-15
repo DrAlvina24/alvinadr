@@ -1,17 +1,19 @@
 /*------------------------------------------------------ FOOTER -----------------------------------------------*/
 
 .by {
-	background-color:#0D0D0D;
-	width: 100%;
-	padding-top: 20px;
-	margin-bottom: 0px;
+    background-color: #0D0D0D;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
+
 .by_text {
-	margin-top: 10px;
-	font-family: Poppins;
-	text-align: center;
-	color: #DE6110;
+    margin-top: 10px;
+    font-family: Poppins;
+    text-align: center;
+    color: #DE6110;
 }
+
 footer {
     width: 100%;
     height: 100%;
@@ -21,4 +23,45 @@ footer {
     display: flex;
     align-self: flex-end;
     justify-content: flex-end;
+}
+
+.social_menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.social_menu ul {
+    display: flex;
+    align-self: center;
+    padding-left: 0px;
+}
+
+.social_menu ul li {
+    list-style: none;
+    /*enlève les puces*/
+    margin: 0 10px;
+    /*séparation horizontale entre les boutons*/
+}
+
+.social_menu ul li .fa {
+    color: lightgrey;
+    /*couleur des icônes*/
+    font-size: 25px;
+    /*taille des icônes*/
+    transition: .5s;
+}
+
+.social_menu ul li .fa:hover {
+    color: #DE6110;
+    /*couleur des icônes lorsqu'elles sont survolées*/
+}
+
+.social_menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    /*animation quand les rectangles sont survolés*/
 }

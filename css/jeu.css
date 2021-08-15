@@ -30,16 +30,6 @@
     align-self: flex-end;
 }
 
-.jeu_ligne_case {
-    /*ligne de trois projets*/
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 .cadre_sombre {
     background-color: rgba(0, 0, 0, 0.70);
     height: 10%;
@@ -55,14 +45,6 @@
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 0;
-}
-
-.invisible {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    opacity: 0;
 }
 
 
