@@ -23,7 +23,7 @@
     font-family: Poppins;
     font-size: 25px;
     font-weight: 500;
-    color: lightgrey;
+    color: var(--light-color);
     text-decoration: none;
     position: absolute;
     background-color: var(--dark-transparent-color);
@@ -40,7 +40,7 @@
 
 .cadre_sombre_texte {
     text-align: center;
-    color: lightgrey;
+    color: var(--light-color);
     font-family: Poppins;
     font-weight: 700;
     font-size: 20px;

@@ -49,7 +49,7 @@ footer {
 }
 
 .social_menu ul li .fa {
-    color: lightgrey;
+    color: var(--light-color);
     /*couleur des icônes*/
     font-size: 25px;
     /*taille des icônes*/

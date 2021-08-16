@@ -44,7 +44,7 @@
 }
 
 .navbar nav li a:hover {
-    color: lightgrey;
+    color: var(--light-color);
 }
 
 
@@ -68,7 +68,7 @@
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
-    color: lightgrey;
+    color: var(--light-color);
     margin: 0px;
     margin-top: 20px;
     margin-left: 80px;
@@ -78,7 +78,7 @@
     font-family: Poppins;
     font-weight: 500;
     font-size: 20px;
-    color: lightgrey;
+    color: var(--light-color);
     margin: 0px;
     margin-top: 20px;
     margin-left: 10px;
