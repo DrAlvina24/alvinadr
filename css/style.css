@@ -101,6 +101,12 @@ b {
     margin-right: 3.5%;
 }
 
+@media screen and (max-width: 640px) {
+    .row_simple {
+        flex-wrap: wrap;
+    }
+}
+
 #start {
     padding-top: 100px;
 }
@@ -397,7 +403,7 @@ b {
 .folder_project_link:hover {
     color: var(--light-color);
     background-color: var(--action-color);
-    padding-right: 200px;
+    padding-right: 20%;
 }
 
 .folder_total {
