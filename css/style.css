@@ -16,6 +16,7 @@ body {
     /*rgb(16, 208, 222) for the blue turquoise*/
     --dark-color: rgb(5, 5, 12);
     --dark-transparent-color: rgba(0, 0, 0, 0.8);
+    --dark-transparent-color2: rgba(0, 0, 0, 0.4);
     --light-color: lightgrey;
 }
 

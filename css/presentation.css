@@ -104,10 +104,16 @@
 }
 
 .brick_container {
-    margin-top: 5px;
+    margin-top: 0px;
+    width: 100%;
 }
 
 .brick_row {
     height: 11vh;
     margin: 1px 0;
+}
+
+.section_container {
+    background-color: var(--dark-transparent-color2);
+    padding: 10px;
 }
