@@ -34,6 +34,7 @@
             flex-direction: column;
             align-items: center;
             height: 50vh;
+            padding-top: 10vh;
         }
         .row_simple {
             margin-top: 0px;
@@ -49,6 +50,18 @@
         }
         .lien_image {
             width: 100%;
+        }
+        .include_navbar {
+            height: 110px;
+        }
+        .present_date {
+            font-size: 25px;
+        }
+        .present_text {
+            font-size: 25px;
+        }
+        .presentation_category {
+            padding-top: 0;
         }
     }
     
@@ -111,6 +124,18 @@
         .couverture {
             width: 100%;
         }
+        .include_navbar {
+            height: 70px;
+        }
+        .present_date {
+            font-size: 16px;
+        }
+        .present_text {
+            font-size: 16px;
+        }
+        .presentation_category {
+            padding-top: 100px;
+        }
     }
     /*----------------------------------------------------GÉNÉRAL--------------------------------------------------------------------*/
     
@@ -140,10 +165,6 @@
         background: none;
         margin: 0;
         padding: 0;
-    }
-    
-    .include_navbar {
-        height: 70px;
     }
     /*IMPORTATION HTML DANS UN AUTRE FICHIER FIN*/
     /*---------------------------------------- TEXTES -----------------------------------------------*/
@@ -266,7 +287,6 @@
     
     .present_text {
         font-family: Poppins;
-        font-size: 16px;
         color: darkgrey;
         font-weight: 600;
         margin: 0;
@@ -280,7 +300,6 @@
     
     .present_date {
         font-family: Poppins;
-        font-size: 16px;
         color: var(--action-color);
         font-weight: 600;
         margin: 0;
@@ -297,7 +316,6 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding-top: 100px;
         margin-bottom: 100px;
         width: 90%;
     }

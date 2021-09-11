@@ -107,7 +107,7 @@
         background-color: transparent;
         border: transparent;
         width: fit-content;
-        margin-top: 20px;
+        margin-top: 35px;
         font-size: 30px;
         transform: rotate(90deg);
         margin-right: 40px;
@@ -118,6 +118,13 @@
     }
     .prénom {
         margin-left: 0;
+        font-size: 30px;
+    }
+    .nom {
+        font-size: 30px;
+    }
+    .nom_prénom {
+        margin-top: 15px;
     }
 }
 
