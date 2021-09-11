@@ -95,3 +95,36 @@
     border-radius: 0px;
     z-index: 10;
 }
+
+.nom_prénom {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-device-width: 650px) {
+    .btn_menu {
+        color: white;
+        background-color: transparent;
+        border: transparent;
+        width: fit-content;
+        margin-top: 20px;
+        font-size: 30px;
+        transform: rotate(90deg);
+        margin-right: 40px;
+    }
+    .haut {
+        display: flex;
+        justify-content: space-between;
+    }
+    .prénom {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-device-width: 650px) {
+    .btn_menu {
+        opacity: 0;
+        position: absolute;
+        left: -999em;
+    }
+}
