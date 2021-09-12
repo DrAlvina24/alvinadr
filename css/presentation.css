@@ -9,6 +9,10 @@
         margin-bottom: 20px;
         margin: auto;
     }
+    .brick_row {
+        height: 7vh;
+        margin: 1px 0;
+    }
 }
 
 @media screen and (min-device-width: 650px) {
@@ -21,6 +25,10 @@
         justify-content: center;
         margin-bottom: 20px;
         margin: auto;
+    }
+    .brick_row {
+        height: 11vh;
+        margin: 1px 0;
     }
 }
 
@@ -131,11 +139,6 @@
 .brick_container {
     margin-top: 0px;
     width: 100%;
-}
-
-.brick_row {
-    height: 11vh;
-    margin: 1px 0;
 }
 
 .section_container {
