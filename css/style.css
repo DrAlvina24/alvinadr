@@ -21,6 +21,7 @@
     /*----------------------------------------------------RESPONSIVE TÉLÉPHONE--------------------------------------------------------------------*/
     
     @media screen and (max-device-width: 650px) {
+        /*Sur écran de téléphone*/
         .delete {
             width: 0;
             height: 0;
@@ -54,11 +55,16 @@
         .include_navbar {
             height: 101vh;
         }
-        .present_date {
+        .present_date,
+        .present_text,
+        .explication_text,
+        .presentation_text,
+        .explication_text_present {
             font-size: 25px;
         }
-        .present_text {
-            font-size: 25px;
+        .present_title,
+        .category_title {
+            font-size: 35px;
         }
         .presentation_category {
             padding-top: 0;
@@ -66,6 +72,7 @@
     }
     
     @media screen and (min-device-width: 650px) {
+        /*Sur écran d'ordinateur*/
         .present_bande {
             display: flex;
             margin: 0;
@@ -127,11 +134,16 @@
         .include_navbar {
             height: 70px;
         }
-        .present_date {
+        .present_date,
+        .present_text,
+        .explication_text,
+        .presentation_text,
+        .explication_text_present {
             font-size: 16px;
         }
-        .present_text {
-            font-size: 16px;
+        .present_title,
+        .category_title {
+            font-size: 20px;
         }
         .presentation_category {
             padding-top: 100px;
@@ -178,7 +190,6 @@
     .presentation_text {
         color: var(--light-color);
         font-family: Poppins;
-        font-size: 16px;
         margin-left: 20%;
         margin-right: 20%;
         margin-top: 0;
@@ -190,7 +201,6 @@
     .explication_text {
         color: var(--light-color);
         font-family: Poppins;
-        font-size: 16px;
         text-align: justify;
     }
     
@@ -276,7 +286,6 @@
     
     .present_title {
         font-family: Poppins;
-        font-size: 20px;
         color: darkgrey;
         font-weight: 600;
         margin: 0;
@@ -342,7 +351,6 @@
     
     .category_title {
         font-family: Poppins;
-        font-size: 25px;
         font-weight: 550;
         color: rgb(161, 161, 161);
         text-decoration: none;
