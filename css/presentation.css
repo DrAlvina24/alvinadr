@@ -1,11 +1,36 @@
-.row_simple_present {
-    width: 95%;
+@media screen and (max-device-width: 650px) {
+    /*si c'est un téléphone*/
+    .row_simple_present {
+        width: 95%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-device-width: 650px) {
+    /*si c'est un ordinateur*/
+    .row_simple_present {
+        width: 95%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+}
+
+.row_simple_fix {
     margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
-    margin: auto;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
 }
 
 .explication_text_present {
@@ -86,7 +111,7 @@
 .brick {
     background-color: var(--dark-action-color);
     width: 30%;
-    height: 11vh;
+    height: 100%;
     display: flex;
     justify-items: center;
     justify-content: center;
