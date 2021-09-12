@@ -13,9 +13,8 @@
                 <h1 class="prénom">Alvina</h1>
                 <h2 class="nom">Damasio--Razafiarizaka</h2>
             </div>
-            <a id="btnMenu" class="btn_menu">| | |</a>
+            <button id="btnOpenMenu" class="btnMenu btnOpenMenu">| | |</button>
         </div>
-
         <nav class="delete">
             <div id="marker"></div>
             <!--SOULIGNEMENT-->
@@ -24,6 +23,19 @@
             <li><a href="../download.html" target="_parent">TÉLÉCHARGER</a></li>
         </nav>
     </div>
+
+    <div id="popup" class="popup">
+        <button id="btnCloseMenu" class="btnMenu btnCloseMenu">X</button>
+        <nav>
+            <!--SOULIGNEMENT-->
+            <li><a href="/" target="_parent">ACCUEIL</a></li>
+            <li><a href="../presentation.html" target="_parent">À PROPOS DE...</a></li>
+            <li><a href="../download.html" target="_parent">TÉLÉCHARGER</a></li>
+        </nav>
+
+    </div>
+
     <script src="../../js/navbar.js"></script>
+    <script src="../../js/burger-menu.js"></script>
 
 </body>

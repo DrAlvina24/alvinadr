@@ -52,7 +52,7 @@
             width: 100%;
         }
         .include_navbar {
-            height: 110px;
+            height: 101vh;
         }
         .present_date {
             font-size: 25px;
@@ -152,6 +152,12 @@
         /*importation d'un bout d'html*/
         border: none;
         width: 100%;
+    }
+    
+    .include_menu {
+        height: 100vh;
+        position: fixed;
+        scroll-behavior: unset;
     }
     
     .fix {
