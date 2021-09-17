@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mouse.css">
+    <link rel="stylesheet" href="css/navbar.css">
 
 </head>
 
@@ -22,6 +23,17 @@
     <!--------------------------------------------------------- MENU ------------------------------------------------------>
 
     <iframe title="navbar" class="include fix include_navbar" src="html/0commons/navbar.html" seamless></iframe>
+    <button id="btnOpenMenu" class="btnMenu btnOpenMenu">| | |</button>
+    <div id="popup" class="popup">
+        <button id="btnCloseMenu" class="btnMenu btnCloseMenu">X</button>
+        <nav>
+            <!--SOULIGNEMENT-->
+            <li><a href="/" target="_parent">ACCUEIL</a></li>
+            <li><a href="html/presentation.html" target="_parent">À PROPOS DE...</a></li>
+            <li><a href="html/download.html" target="_parent">TÉLÉCHARGER</a></li>
+        </nav>
+    </div>
+
     <!------------------------------------------------------ PROJETS ------------------------------------------------>
     <section class="present_bande">
 
@@ -149,6 +161,7 @@
     <!------------------------------------------------------ SCRIPTS ------------------------------------------------>
 
     <script src="js/title.js"></script>
+    <script src="js/burger-menu.js"></script>
 
     <!--------------------------------------------------------------------------------------------------------------->
 </body>

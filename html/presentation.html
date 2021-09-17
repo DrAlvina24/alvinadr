@@ -13,13 +13,23 @@
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/presentation.css">
-    <link rel="stylesheet" href="../css/neon.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 
 <body>
     <!--------------------------------------------------------- MENU ------------------------------------------------------>
 
     <iframe title="navbar" class="include fix include_navbar" src="0commons/navbar.html" seamless></iframe>
+    <button id="btnOpenMenu" class="btnMenu btnOpenMenu">| | |</button>
+    <div id="popup" class="popup">
+        <button id="btnCloseMenu" class="btnMenu btnCloseMenu">X</button>
+        <nav>
+            <!--SOULIGNEMENT-->
+            <li><a href="/" target="_parent">ACCUEIL</a></li>
+            <li><a href="presentation.html" target="_parent">À PROPOS DE...</a></li>
+            <li><a href="download.html" target="_parent">TÉLÉCHARGER</a></li>
+        </nav>
+    </div>
     <!---------------------------------------------- TEXT PRESENTATION ------------------------------------------------>
 
     <div class="espace"></div>
@@ -137,7 +147,8 @@
     </div>
     <br><br><br>
 
-
+    <!------------------------------------------------------ SCRIPTS ------------------------------------------------>
+    <script src="../js/burger-menu.js"></script>
 
     <!------------------------------------------------------ FOOTER ------------------------------------------------------>
 

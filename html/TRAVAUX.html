@@ -9,18 +9,32 @@
     <title>Alvina Damasio--Razafiarizaka | EN TRAVAUX</title>
 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 
 </head>
 
 <body>
     <!--------------------------------------------------------- MENU ------------------------------------------------------>
 
-    <iframe title="navbar" class="include fix include_navbar" src="0commons/navbar.html" seamless></iframe>
+    <iframe title="navbar" class="include fix include_navbar" src="html/0commons/navbar.html" seamless></iframe>
+    <button id="btnOpenMenu" class="btnMenu btnOpenMenu">| | |</button>
+    <div id="popup" class="popup">
+        <button id="btnCloseMenu" class="btnMenu btnCloseMenu">X</button>
+        <nav>
+            <!--SOULIGNEMENT-->
+            <li><a href="/" target="_parent">ACCUEIL</a></li>
+            <li><a href="presentation.html" target="_parent">À PROPOS DE...</a></li>
+            <li><a href="download.html" target="_parent">TÉLÉCHARGER</a></li>
+        </nav>
+    </div>
     <!---------------------------------------------- TEXT PRESENTATION ------------------------------------------------>
 
     <div class="presentation_dut_mmi_case">
         <p class="presentation_text">EN TRAVAUX</p>
     </div>
+
+    <!------------------------------------------------------ SCRIPTS ------------------------------------------------>
+    <script src="../js/burger-menu.js"></script>
 
     <!------------------------------------------------------ FOOTER ------------------------------------------------------>
 

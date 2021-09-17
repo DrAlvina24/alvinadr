@@ -53,7 +53,7 @@
             width: 100%;
         }
         .include_navbar {
-            height: 101vh;
+            height: fit-content;
         }
         .present_date,
         .present_text,
@@ -166,12 +166,6 @@
         width: 100%;
     }
     
-    .include_menu {
-        height: 100vh;
-        position: fixed;
-        scroll-behavior: unset;
-    }
-    
     .fix {
         position: fixed;
         z-index: 5;
@@ -183,6 +177,7 @@
         background: none;
         margin: 0;
         padding: 0;
+        z-index: 0;
     }
     /*IMPORTATION HTML DANS UN AUTRE FICHIER FIN*/
     /*---------------------------------------- TEXTES -----------------------------------------------*/

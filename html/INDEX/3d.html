@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name=”viewport” content=”width=device-width, initial-scale=1>
+    <meta name=”viewport” content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="../../icon.ico" />
     <meta name="description" content="Découvrez les travaux en 3D de Alvina DR, de la modélisation sur cinéma 4D au rendu sur Twinmotion en passant par l'animation sur Blender." />
@@ -12,13 +12,23 @@
     <title>Alvina Damasio--Razafiarizaka | 3D</title>
 
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
 
 </head>
 
 <body>
     <!--------------------------------------------------------- MENU ------------------------------------------------------>
-
     <iframe title="navbar" class="include fix include_navbar" src="../0commons/navbar.html" seamless></iframe>
+    <button id="btnOpenMenu" class="btnMenu btnOpenMenu">| | |</button>
+    <div id="popup" class="popup">
+        <button id="btnCloseMenu" class="btnMenu btnCloseMenu">X</button>
+        <nav>
+            <!--SOULIGNEMENT-->
+            <li><a href="/" target="_parent">ACCUEIL</a></li>
+            <li><a href="../presentation.html" target="_parent">À PROPOS DE...</a></li>
+            <li><a href="../download.html" target="_parent">TÉLÉCHARGER</a></li>
+        </nav>
+    </div>
     <!---------------------------------------------- CARROUSSEL PHOTOMONTAGES ------------------------------------------------>
 
 
@@ -60,6 +70,9 @@
             </div>
         </div>
     </div>
+    <!------------------------------------------------------ SCRIPTS ------------------------------------------------>
+    <script src="../../js/burger-menu.js"></script>
+
     <!------------------------------------------------------ FOOTER ------------------------------------------------------>
 
     <iframe title="Pied de page" class="include " src="../0commons/footer.html " seamless></iframe>
