@@ -69,6 +69,10 @@
         .presentation_category {
             padding-top: 0;
         }
+        .phone_space {
+            height: 5vh;
+            width: 100%;
+        }
     }
     
     @media screen and (min-device-width: 650px) {
@@ -147,6 +151,15 @@
         }
         .presentation_category {
             padding-top: 100px;
+        }
+        /*LES ANIMATIONS SUR ORDINATEUR*/
+        .card:hover .data {
+            transform: translateY(0);
+        }
+        .folder_project_link:hover {
+            color: var(--light-color);
+            background-color: var(--action-color);
+            padding-right: 20%;
         }
     }
     /*----------------------------------------------------GÉNÉRAL--------------------------------------------------------------------*/
@@ -373,10 +386,6 @@
         width: 100%;
     }
     
-    .card:hover .data {
-        transform: translateY(0);
-    }
-    
     .card .data {
         position: absolute;
         bottom: 0;
@@ -421,12 +430,6 @@
         padding-left: 20px;
         align-self: flex-start;
         transition: 0.3s;
-    }
-    
-    .folder_project_link:hover {
-        color: var(--light-color);
-        background-color: var(--action-color);
-        padding-right: 20%;
     }
     
     .folder_total {
